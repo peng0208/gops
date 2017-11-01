@@ -20,9 +20,10 @@
 1. 进入项目目录，`npm install && npm run build`
 
 ## 运行
+1. 创建数据库，`gops/gops-doc/scheme.sql`
 1. 修改配置文件
-- gops_server: gops/gops-doc/gops-server.conf
-- gops_client: gops/gops-doc/gops-client.conf
-- nginx: gops/gops-doc/nginx.conf
+- gops_server: `gops/gops-doc/gops-server.conf`
+- gops_client: `gops/gops-doc/gops-client.conf`
+- nginx: `gops/gops-doc/nginx.conf`
 1. `gops_server -c gops-server.conf`
 1. `gops_client -c gops-client.conf`
