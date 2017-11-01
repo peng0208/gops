@@ -1,18 +1,18 @@
 package main
 
 import (
-	"os"
-	"time"
-	"net/http"
+	"flag"
+	"fmt"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"github.com/labstack/gommon/log"
 	"gops/gops-common"
 	"gops/gops-server"
-	"flag"
-	"fmt"
-	"runtime"
 	"gops/gops-server/module"
+	"net/http"
+	"os"
+	"runtime"
+	"time"
 )
 
 const HTTP_TIMEOUT = 60
@@ -48,10 +48,10 @@ func main() {
 		middleware.Recover(),
 		middleware.Secure(),
 		middleware.CORSWithConfig(middleware.CORSConfig{
-			AllowOrigins: []string{"http://gops.com:8080","http://localhost:8080", "http://127.0.0.1:8080"},
+			AllowOrigins:     []string{"http://localhost:8080"},
 			AllowCredentials: true,
-			AllowHeaders: []string{"Authorization", "Content-type"},
-			AllowMethods: []string{echo.GET, echo.PATCH,echo.PUT, echo.POST, echo.DELETE, echo.OPTIONS},
+			AllowHeaders:     []string{"Authorization", "Content-type"},
+			AllowMethods:     []string{echo.GET, echo.PATCH, echo.PUT, echo.POST, echo.DELETE, echo.OPTIONS},
 		}),
 		middleware.LoggerWithConfig(middleware.LoggerConfig{
 			Format: `{"time":"${time_rfc3339_nano}","remote_ip":"${remote_ip}",` +
