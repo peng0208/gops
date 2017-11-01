@@ -3,6 +3,8 @@
 - 配置文件管理
 - 定时任务管理
 
+![images](https://github.com/pengg0208/gops/blob/master/C995628D-A206-4265-BA8E-F4B8D6CF600B.png)
+
 ## 功能简介
 - WEB界面，操作便利，避免人工操作多台服务器的困难及风险。
 - 配置文件管理，通过界面修改配置，由ETCD下发，实现管理多台服务器的配置文件
