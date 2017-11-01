@@ -1,0 +1,26 @@
+package: gops
+import:
+- package: github.com/BurntSushi/toml
+  version: ^0.3.0
+- package: github.com/coreos/etcd
+  version: ^3.2.9
+  subpackages:
+  - clientv3
+- package: github.com/dgrijalva/jwt-go
+  version: ^3.1.0
+- package: github.com/go-sql-driver/mysql
+  version: ^1.3.0
+- package: github.com/labstack/echo
+  version: ^3.2.3
+  subpackages:
+  - middleware
+- package: github.com/labstack/gommon
+  version: ^0.2.3
+  subpackages:
+  - log
+- package: github.com/shirou/gopsutil
+  version: ^2.17.9
+  subpackages:
+  - cpu
+  - load
+- package: golang.org/x/crypto/scrypt

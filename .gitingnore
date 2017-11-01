@@ -1,0 +1,15 @@
+.DS_Store
+.idea/
+*.iml
+.*.sw[po]
+*.so
+*.egg-info
+*.egg
+*.egg/
+*.eggs
+.cache/
+
+*.py[cod]
+*.log
+*.log.*
+*.pid
