@@ -8,6 +8,9 @@ clientbin="gops-client"
 serverdir=$basedir/$serverbin
 clientdir=$basedir/$clientbin
 
+yum install glide
+glide install
+
 cd $serverdir && go build && go install && echo "server: $GOPATH/bin/$serverbin"
 cd $clientdir && go build && go install && echo "client: $GOPATH/bin/$clientbin"
 
