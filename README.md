@@ -3,7 +3,7 @@
 - 配置文件管理
 - 定时任务管理
 
-![images](https://github.com/pengg0208/gops/blob/master/C995628D-A206-4265-BA8E-F4B8D6CF600B.png)
+![images](https://github.com/pompeng/gops/blob/master/C995628D-A206-4265-BA8E-F4B8D6CF600B.png)
 
 ## 功能简介
 - WEB界面，操作便利，避免人工操作多台服务器的困难及风险。
@@ -12,12 +12,12 @@
 - 定时任务管理，基于TCP的RPC调用。通过界面管理linux定时任务，秒级执行，根据节点最小负载调度，实现冗余、分布式调用，用来替代Linux自带的crontab工具
 
 ## 安装
-1. 克隆项目，`git clone https://github.com/pengg0208/gops.git`
+1. 克隆项目，`git clone https://github.com/pompeng/gops.git`
 1. 进入项目目录，`glide install`
 1. 编译 `sh setup.sh`
 
 ## 安装web
-1. 克隆项目，`git clone https://github.com/pengg0208/gops-frontend.git`
+1. 克隆项目，`git clone https://github.com/pompeng/gops-frontend.git`
 1. 进入项目目录，`npm install && npm run build`
 
 ## 运行
