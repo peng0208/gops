@@ -12,7 +12,7 @@
 - 定时任务管理，基于TCP的RPC调用。通过界面管理linux定时任务，秒级执行，基于动态反馈负载均衡机制，实现均衡负载分布式调用，用来替代Linux自带的crontab工具
 
 ## 安装
-1. 克隆项目，`git clone https://github.com/pompeng/gops.git`
+1. 克隆项目，`cd $GOPATH/src;git clone https://github.com/pompeng/gops.git`
 1. 进入项目目录，`glide install`
 1. 编译 `sh setup.sh`
 
