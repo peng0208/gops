@@ -21,9 +21,9 @@
 
 ## 运行
 1. 创建数据库，`gops/gops-doc/scheme.sql`
-1. 编写配置文件
-- gops_server: `gops/gops-doc/gops-server.conf`
-- gops_client: `gops/gops-doc/gops-client.conf`
-- nginx: `gops/gops-doc/nginx.conf`
-1. `gops_server -c gops-server.conf`
-1. `gops_client -c gops-client.conf`
+2. 编写配置文件  
+- gops_server: `gops/gops-doc/gops-server.conf`  
+- gops_client: `gops/gops-doc/gops-client.conf`  
+- nginx: `gops/gops-doc/nginx.conf`  
+3. `gops_server -c gops-server.conf`
+4. `gops_client -c gops-client.conf`
