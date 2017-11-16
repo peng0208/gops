@@ -13,7 +13,6 @@
 
 ## 安装
 1. 克隆项目，`cd $GOPATH/src;git clone https://github.com/pompeng/gops.git`
-1. 进入项目目录，`glide install`
 1. 编译 `sh setup.sh`
 
 ## 安装web
@@ -22,7 +21,7 @@
 
 ## 运行
 1. 创建数据库，`gops/gops-doc/scheme.sql`
-1. 修改配置文件
+1. 编写配置文件
 - gops_server: `gops/gops-doc/gops-server.conf`
 - gops_client: `gops/gops-doc/gops-client.conf`
 - nginx: `gops/gops-doc/nginx.conf`
