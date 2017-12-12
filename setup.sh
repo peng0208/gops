@@ -2,7 +2,7 @@
 # Author: Pengg
 # Description: Build the golang project.
 
-basedir="./gops-cmd"
+basedir=$(cd `dirname $0`;pwd)
 serverbin="gops-server"
 clientbin="gops-client"
 serverdir=$basedir/$serverbin
