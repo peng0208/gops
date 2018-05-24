@@ -7,7 +7,7 @@ import (
 
 type CronTag struct {
 	TagId   string `json:"tagid"`
-	Tagname string `json::tagname`
+	Tagname string `json:"tagname"`
 	Remark  string `json:"remark"`
 }
 
